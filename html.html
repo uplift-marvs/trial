@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML-CSS Self Paced Course - Documentation</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="main-grid">
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="header__nav-items">
+                    <li class="header__nav-item">
+                        <a href="./index.html">Web Appreciation</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./html.html">HTML</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar">
+            <nav class="inpage-nav">
+                HTML Module
+                <ol>
+                    <li><a href="#basics">Basics, Syntax, Terminologies</a></li>
+                    <li><a href="#html-document">HTML Document</a></li>
+                    <li><a href="#html-elements">HTML Elements</a></li>
+                    <li><a href="#html-form">HTML Forms</a></li>
+                    <li><a href="#html-table">HTML Tables</a></li>
+                </ol>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <article>
+                <h1>HTML Module</h1>
+                <section id="basics">
+                    <h2>Basics, Syntax, Terminologies</h2>
+                    <section>
+                        <img
+                            src="./assets/images/html-document.png"
+                            alt="HTML Building Blocks"
+                            class="float-right"
+                        />
+                        <h3>Building Blocks</h3>
+                        <h4>HTML Document</h4>
+                        <p>
+                            Structured document containing content and links to
+                            other documents and resources
+                        </p>
+                        <h4>HTML Element</h4>
+                        <p>
+                            Component that tells a browser how to interpret a
+                            part of the document
+                        </p>
+                        <h4>HTML Tags</h4>
+                        <p>
+                            Set of acceptable symbols used to markup HTML
+                            document
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Syntax</h3>
+                        <img
+                            src="./assets/images/html-syntax.png"
+                            alt="HTML syntax"
+                            class="image"
+                        />
+                    </section>
+                </section>
+                <section id="html-document">
+                    <h2>HTML Document</h2>
+                </section>
+                <section id="html-elements">
+                    <h2>HTML Elements</h2>
+                    <section>
+                        <h3>Metadata Elements</h3>
+                        <ul>
+                            <li><code class="tag">title</code></li>
+                            <li><code class="tag">style</code></li>
+                            <li><code class="tag">link</code></li>
+                            <li><code class="tag">meta</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Text Elements</h3>
+                        <ul>
+                            <li><code class="tag">h1</code></li>
+                            <li><code class="tag">h2</code></li>
+                            <li><code class="tag">h3</code></li>
+                            <li><code class="tag">h4</code></li>
+                            <li><code class="tag">h5</code></li>
+                            <li><code class="tag">h6</code></li>
+                            <li><code class="tag">p</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>List Elements</h3>
+                        <ul>
+                            <li><code class="tag">ol</code></li>
+                            <li><code class="tag">ul</code></li>
+                            <li><code class="tag">li</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Sectioning Elements</h3>
+                        <ul>
+                            <li><code class="tag">header</code></li>
+                            <li><code class="tag">footer</code></li>
+                            <li><code class="tag">nav</code></li>
+                            <li><code class="tag">main</code></li>
+                            <li><code class="tag">article</code></li>
+                            <li><code class="tag">section</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Container Elements</h3>
+                        <ul>
+                            <li>
+                                <code class="tag">div</code> - generic block
+                                container
+                            </li>
+                            <li>
+                                <code class="tag">span</code> - generic inline
+                                container
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Embedded Content</h3>
+                        <ul>
+                            <li>
+                                <code class="tag">img</code>
+                                <div>
+                                    <img
+                                        src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=pexels-pixabay-45201.jpg&fm=jpg"
+                                        alt="Cat"
+                                        width="200px"
+                                        class="image"
+                                    />
+                                </div>
+                            </li>
+                            <li><code class="tag">audio</code></li>
+                            <li><code class="tag">video</code></li>
+                            <li><code class="tag">svg</code></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Interactive elements</h3>
+                        <ul>
+                            <li>
+                                <code class="tag">a</code> - anchor element
+                                <div>
+                                    <a
+                                        href="https://www.google.com"
+                                        target="_blank"
+                                        >Google</a
+                                    >
+                                </div>
+                            </li>
+                            <li>
+                                <code class="tag">input</code>
+                                <ul>
+                                    <li>Text: <input type="text" /></li>
+                                    <li>Checkbox: <input type="checkbox" /></li>
+                                    <li>
+                                        Date:
+                                        <input type="date" name="" id="" />
+                                    </li>
+                                    <li>
+                                        Button:
+                                        <input type="button" value="Click Me" />
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <code class="tag">button</code>
+                                <div>
+                                    <button>Click Me!</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="html-form">
+                    <h2>HTML Forms</h2>
+                    <form id="html-form-sample" method="POST">
+                        <h3>Student Enrolment Form</h3>
+                        <fieldset>
+                            <legend>Student Information</legend>
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" />
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" />
+                            <label for="phone">Phone number:</label>
+                            <input type="tel" name="phone" id="phone" />
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" />
+                        </fieldset>
+                        <fieldset>
+                            <legend>
+                                What modules do you want to enrol in?
+                            </legend>
+                            <input
+                                type="checkbox"
+                                name="module"
+                                id="html"
+                                value="html"
+                            />
+                            <label for="html">HTML</label>
+                            <input
+                                type="checkbox"
+                                name="module"
+                                id="css"
+                                value="css"
+                            />
+                            <label for="css">CSS</label>
+                            <input
+                                type="checkbox"
+                                name="module"
+                                id="javascript"
+                                value="javascript"
+                            />
+                            <label for="javascript">JavaScript</label>
+                            <input
+                                type="checkbox"
+                                name="module"
+                                id="react"
+                                value="react"
+                            />
+                            <label for="react">React</label>
+                            <input
+                                type="checkbox"
+                                name="module"
+                                id="nodejs"
+                                value="nodejs"
+                            />
+                            <label for="nodejs">NodeJS</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>How would you like to pay?</legend>
+                            <input
+                                type="radio"
+                                name="payment"
+                                id="full"
+                                value="full"
+                            />
+                            <label for="full">Full payment</label>
+                            <input
+                                type="radio"
+                                name="payment"
+                                id="installment"
+                                value="full"
+                            />
+                            <label for="installment">Installment</label>
+                        </fieldset>
+                        <button>Submit</button>
+                    </form>
+                </section>
+                <section id="html-tables">
+                    <h2>HTML Tables</h2>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Item purchased</th>
+                                <th>Unit price</th>
+                                <th>Quantity</th>
+                                <th>Total price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Milk</td>
+                                <td>100</td>
+                                <td>2</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Bread</td>
+                                <td>85</td>
+                                <td>1</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <td>Rice</td>
+                                <td>50 /kg</td>
+                                <td>5</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Coffee</td>
+                                <td>15</td>
+                                <td>10</td>
+                                <td>150</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+
+                    <table border="1">
+                        <tr>
+                            <td>Table 1 R1C1</td>
+                            <td>Table 1 R1C2</td>
+                        </tr>
+                        <tr>
+                            <td>Table 1 R2C1</td>
+                            <td>
+                                Table 1 Nested
+                                <table border="1">
+                                    <tr>
+                                        <td colspan="2">Table 2 Row 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Table 2 Row 2</td>
+                                        <td rowspan="2">
+                                            Table 2 Row 2 column 2
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Table 2 Row 3</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <p>Created by: Marvin</p>
+        </footer>
+    </body>
+</html>

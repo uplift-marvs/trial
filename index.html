@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML CSS Docs</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="main-grid">
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="header__nav-items">
+                    <li class="header__nav-item">
+                        <a href="./index.html">Web Appreciation</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="./html.html">HTML</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="sidebar">
+            <nav class="inpage-nav">
+                <a href="#web-appreciation">Web Appreciation</a>
+                <ol>
+                    <li class="">
+                        <a href="#what-happens"
+                            >What happens when we access a website</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#web-arch"
+                            >Simplified Web Architecture Overview</a
+                        >
+                    </li>
+                    <li><a href="#web-tech">Core Web Technologies</a></li>
+                </ol>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <article>
+                <h1 id="web-appreciation">Web Appreciation</h1>
+                <section id="what-happens">
+                    <h2>What happens when we access a website</h2>
+                    <p>
+                        Our browser acts as a client. When we type in the
+                        address of a website we want to visit on the browser's
+                        address bar, it creates a request that is sent to an
+                        appropriate server throught the internet.
+                    </p>
+
+                    <img
+                        src="./assets/images/browser-1.png"
+                        alt="Empty browser"
+                        class="image"
+                    />
+                    <p>
+                        The server then packages and sends back a response which
+                        our browser renders for us
+                    </p>
+                    <img
+                        class="image"
+                        src="./assets/images/browser-2.png"
+                        alt="Browser after rendering response"
+                    />
+
+                    <h3>Client-Server</h3>
+                    <h4>Clients</h4>
+                    <ul>
+                        <li>Interface to access information from the web</li>
+                        <li>
+                            Transforms user's actions into requests to be sent
+                            over to servers
+                        </li>
+                        <li>
+                            Transforms responses to a form understandable to
+                            users
+                        </li>
+                    </ul>
+
+                    <h4>Servers</h4>
+                    <ul>
+                        <li>Holds and processes information</li>
+                        <li>
+                            Packages appropriate responses based on requests
+                            received from client
+                        </li>
+                    </ul>
+                    <h3>Request-Response</h3>
+                    <ul>
+                        <li>
+                            Every request should have a correponding response
+                        </li>
+                        <li>
+                            In web development, we mostly use web browsers as
+                            our client
+                        </li>
+                        <li>
+                            As web developers, we create HTML documents and CSS
+                            styles that browsers requests for when they visit a
+                            website.
+                        </li>
+                    </ul>
+                </section>
+                <section id="web-arch">
+                    <h2>Simplified Web Architecture Overview</h2>
+                    <img
+                        class="image"
+                        src="./assets/images/web-architecture-overview.png"
+                        alt="Simplified Web Architecture Overview"
+                    />
+                </section>
+                <section id="web-tech">
+                    <h2>Core Web Technologies</h2>
+                </section>
+            </article>
+        </main>
+        <footer class="footer">
+            <p>Created by: Marvin</p>
+        </footer>
+    </body>
+</html>
